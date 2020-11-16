@@ -3,6 +3,8 @@
   "about_url": "https://meta.discourse.org/t/search-banner-theme-component/122939",
   "license_url": "https://github.com/awesomerobot/discourse-search-banner/blob/master/LICENSE",
   "component": true,
-  "assets": {},
+  "assets": {
+    "icons-sprite": "assets/coupa_sprite.svg"
+  },
   "color_schemes": {}
 }

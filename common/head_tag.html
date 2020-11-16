@@ -1,4 +1,5 @@
 <script type="text/discourse-plugin" version="0.8">
+  api.replaceIcon('search', 'coupa_search_icon');
   api.registerConnectorClass('above-main-container', 'search-banner', {
     setupComponent(args, component) {
       var topMenuRoutes = Discourse.SiteSettings.top_menu.split('|').map(function(route) {return '/' + route});
