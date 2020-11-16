@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol viewBox="0 0 18 18" id="coupa_search_icon">
+    <title>Artboard</title>
+    <defs>
+      <path id="a" d="M.478 8h7.267V.677H.478z"></path>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+      <path d="M6.209 10.318L7.278 9.23a.922.922 0 01.116-.096 5.256 5.256 0 01-.846-2.867C6.548 3.356 8.886 1 11.774 1 14.659 1 17 3.356 17 6.266c0 2.907-2.341 5.266-5.226 5.266a5.184 5.184 0 01-2.845-.853c-.031.04-.058.08-.095.117 0 0-.997 1.005-1.234 1.147m4.174-2.074c1.97 0 3.576-1.617 3.576-3.603 0-1.986-1.605-3.603-3.576-3.603S8.198 4.28 8.198 6.266c0 1.986 1.605 3.603 3.576 3.603" fill="#C5C5C5" fill-rule="nonzero"></path>
+      <g transform="matrix(-1 0 0 1 9 8.745)">
+        <mask id="b" fill="#fff">
+          <use xlink:href="#a"></use>
+        </mask>
+        <path fill="#C5C5C5" fill-rule="nonzero" mask="url(#b)" d="M3.659 1.851L1.6 4.197 5.849 7.86l1.896-2.3z"></path>
+      </g>
+    </g>
+  </symbol>
+</svg>

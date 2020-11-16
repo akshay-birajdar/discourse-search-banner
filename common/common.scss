@@ -1,6 +1,7 @@
 @import "common/foundation/mixins";
 
-$max-width: 600px;
+$max-width: 875px;
+$coupa-neutral-medium: #999;
 
 .display-search-banner {
   #main-outlet {
@@ -40,7 +41,18 @@ $max-width: 600px;
     input[type="text"] {
       margin: 0;
       width: 100%;
+      font-family: "OpenSansRegular",Helvetica,Arial,sans-serif;
+      border-radius: 4px;
       padding-right: 4em;
+      height: 45px;
+      font-size: 1.3em;
+    }
+    input[type="text"]:focus {
+      box-shadow: 0 0 6px #fab882;
+      border-color: #f27921;
+    }
+    input[type="text"]::placeholder {
+      color: $coupa-neutral-medium;
     }
   }
 
@@ -50,9 +62,16 @@ $max-width: 600px;
     padding: 0;
     .searching {
       // spinner
-      top: 0.5em;
-      right: 2.25em;
+      top: 0.8em;
+      right: 2.40em;
+      width: 2em;
     }
+  }
+
+  // spinner height for coupa discourse search banner
+  .search-menu .searching .spinner {
+    height: 0.9em;
+    width: 0.9em;
   }
 
   h1 {
@@ -64,7 +83,7 @@ $max-width: 600px;
   }
 
   h1,
-  p {
+  h3 {
     text-align: center;
   }
 
@@ -73,6 +92,7 @@ $max-width: 600px;
     z-index: 2;
     order: 2;
     right: 0;
+    font-size: 1.7511em;
     background: transparent;
     .discourse-no-touch & {
       &:hover {
@@ -95,6 +115,7 @@ $max-width: 600px;
     z-index: 10;
     right: 0;
     top: 2.67em;
+    margin-top: 1em;
     display: inline-flex;
     align-items: center;
     label {
@@ -112,7 +133,7 @@ $max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
-    top: 1.9em;
+    top: 2.67em;
     right: 0;
     padding: 2em 1em 1em 1em;
     @include breakpoint(mobile-extra-large) {
