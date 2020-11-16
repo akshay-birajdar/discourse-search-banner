@@ -47,13 +47,6 @@ $coupa-neutral-medium: #999;
       height: 45px;
       font-size: 1.3em;
     }
-    input[type="text"]:focus {
-      box-shadow: 0 0 6px #fab882;
-      border-color: #f27921;
-    }
-    input[type="text"]::placeholder {
-      color: $coupa-neutral-medium;
-    }
   }
 
   .search-input {
@@ -158,5 +151,15 @@ $coupa-neutral-medium: #999;
     &:focus {
       background-color: $highlight-medium;
     }
+  }
+}
+
+.search-menu {
+  input[type="text"]:focus {
+    box-shadow: 0 0 6px #fab882;
+    border-color: #f27921;
+  }
+  input[type="text"]::placeholder {
+    color: $coupa-neutral-medium;
   }
 }
