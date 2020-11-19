@@ -29,3 +29,4 @@ The HTML element gets a class named `.display-search-banner` wherever this banne
 ### Future enhancements 
 
 * Add an option to enable the banner in specific categories
+
